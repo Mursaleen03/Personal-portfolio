@@ -1,0 +1,49 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #0f172a; }
+    .card { fill: #1e293b; rx: 12; stroke: #334155; stroke-width: 1.5; }
+    .header { font: bold 20px sans-serif; fill: #ffffff; }
+    .table-header { font: bold 14px sans-serif; fill: #94a3b8; }
+    .table-row { font: 14px sans-serif; fill: #e2e8f0; }
+    .btn { rx: 6; }
+    .edit { fill: #3b82f6; }
+    .delete { fill: #ef4444; }
+    .btn-label { font: 12px sans-serif; fill: #f1f5f9; text-anchor: middle; }
+  </style>
+
+  <rect class="bg" width="100%" height="100%" />
+
+  <!-- Card -->
+  <rect class="card" x="40" y="40" width="720" height="300" />
+
+  <!-- Header -->
+  <text class="header" x="60" y="75">User Management</text>
+
+  <!-- Table Headers -->
+  <text class="table-header" x="60" y="115">Name</text>
+  <text class="table-header" x="260" y="115">Email</text>
+  <text class="table-header" x="460" y="115">Role</text>
+  <text class="table-header" x="640" y="115">Actions</text>
+
+  <!-- Row 1 -->
+  <text class="table-row" x="60" y="150">John Doe</text>
+  <text class="table-row" x="260" y="150">john@example.com</text>
+  <text class="table-row" x="460" y="150">Admin</text>
+  <rect class="btn edit" x="610" y="135" width="60" height="24" />
+  <text class="btn-label" x="640" y="152">Edit</text>
+  <rect class="btn delete" x="680" y="135" width="60" height="24" />
+  <text class="btn-label" x="710" y="152">Delete</text>
+
+  <!-- Row 2 -->
+  <text class="table-row" x="60" y="190">Jane Smith</text>
+  <text class="table-row" x="260" y="190">jane@domain.com</text>
+  <text class="table-row" x="460" y="190">Editor</text>
+  <rect class="btn edit" x="610" y="175" width="60" height="24" />
+  <text class="btn-label" x="640" y="192">Edit</text>
+  <rect class="btn delete" x="680" y="175" width="60" height="24" />
+  <text class="btn-label" x="710" y="192">Delete</text>
+
+  <!-- Add New Button -->
+  <rect class="btn edit" x="60" y="260" width="140" height="32" />
+  <text class="btn-label" x="130" y="282">+ Add New User</text>
+</svg>
