@@ -1,7 +1,16 @@
 User-agent: *
 Allow: /
+
+# Portfolio sitemap
 Sitemap: https://personal-portfolio-mursaleen03.vercel.app/sitemap.xml
 
 # Optimize crawling
 Disallow: /_next/static/
 Disallow: /api/
+Disallow: /404
+Disallow: /500
+
+# Allow important pages
+Allow: /about
+Allow: /projects
+Allow: /contact
