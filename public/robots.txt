@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Sitemap: https://your-portfolio-url.vercel.app/sitemap.xml
+
+# Optimize crawling
+Disallow: /_next/static/
+Disallow: /api/

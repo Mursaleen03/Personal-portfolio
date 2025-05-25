@@ -8,8 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Mursaleen - MERN Stack Developer",
-  description:
-    "Portfolio website showcasing MERN stack development projects and skills",
+  description: "Portfolio website showcasing MERN stack development projects and skills",
   keywords: [
     "MERN Stack",
     "Web Development",
@@ -18,6 +17,31 @@ export const metadata: Metadata = {
     "React",
     "Node.js",
   ],
+  metadataBase: new URL('https://your-portfolio-url.vercel.app'),
+  openGraph: {
+    title: 'Mursaleen - MERN Stack Developer',
+    description: 'Portfolio website showcasing MERN stack development projects and skills',
+    url: 'https://your-portfolio-url.vercel.app',
+    siteName: 'Mursaleen Portfolio',
+    images: [
+      {
+        url: '/public/profile.png',
+        width: 800,
+        height: 600,
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Mursaleen - MERN Stack Developer',
+    description: 'Portfolio website showcasing MERN stack development projects and skills',
+    images: ['/public/profile.png'],
+  },
+  alternates: {
+    canonical: 'https://your-portfolio-url.vercel.app',
+  },
 };
 
 export default function RootLayout({

@@ -7,7 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "vercel --prod"
+    "lint:fix": "next lint --fix",
+    "format": "prettier --write .",
+    "type-check": "tsc --noEmit",
+    "deploy": "vercel --prod",
+    "analyze": "ANALYZE=true next build"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
