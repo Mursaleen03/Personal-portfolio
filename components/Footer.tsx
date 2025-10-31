@@ -26,7 +26,7 @@ const Footer = () => {
             screen.
           </h1>
           <p className="text-white-200 md:mt-10 my-5 text-center">
-            Whether it&apos;s a website, app, or idea — I&apos;m here to code it
+            Whether it&apos;s a website, app, or idea I&apos;m here to code it
             into reality.
           </p>
         </div>

@@ -40,7 +40,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-          Hi, I&apos;m Mursaleen —a MERN-stack developer who turns clean code into memorable web experiences.
+          Hi, I&apos;m Mursaleen a MERN-stack developer who turns clean code into memorable web experiences.
           </p>
 
           <a href="#about">
